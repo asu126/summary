@@ -28,3 +28,5 @@ sed 's/\\n/ /g' words.txt | awk '{ for(i=1;i<=NF;i++) print $i}' | sort | uniq -
       -u: 排序后相同的行只显示一次
       -f: 排序时忽略字符大小写
 ```
+
+http://wiki.ubuntu.org.cn/Shell%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80#.E4.BB.8E.E7.AC.AC.E4.B8.80.E8.A1.8C.E5.BC.80.E5.A7.8B
