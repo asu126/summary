@@ -13,9 +13,11 @@
 
 # 解决方法
 ```
+//protoc --go_out 工具
 go get -u github.com/golang/protobuf/protoc-gen-go
 cd $GOPATH/src/golang.org/x          && git clone https://github.com/grpc/grpc-go.git grpc
 cd $GOPATH/src/golang.org/x          && git clone https://github.com/golang/text.git
+// golang protobuf 库
 cd $GOPATH/src/google.golang.org git && clone https://github.com/google/go-genproto.git genproto
 ```
  
