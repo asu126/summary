@@ -29,7 +29,16 @@ Every nums[i] will be an integer in the range [0, 99]
 
 [code](src/largestNumberAtLeastTwiceOfOthers.go)
 
-#  Min Cost Climbing Stairs
+### Majority Element
+Given an array of size n, find the majority element. The majority element is the element that appears more than ⌊ n/2 ⌋ times.
+
+**You may assume that the array is non-empty and the majority element always exist in the array.**
+
+这一题由于使用了Golang 中的map, 简化了做题流程。
+
+[code](src/majorityElement.go)
+
+###  Min Cost Climbing Stairs
 On a staircase, the i-th step has some non-negative cost cost[i] assigned (0 indexed).
 
 Once you pay the cost, you can either climb one or two steps. You need to find minimum cost to reach the top of the floor, and you can either start from the step with index 0, or the step with index 1.
@@ -63,7 +72,7 @@ Every cost[i] will be an integer in the range [0, 999].
 [code](src/minCostClimbingStairs/minCostClimbingStairs.go)
 
 
-# Climbing Stairs
+### Climbing Stairs
 
 You are climbing a stair case. It takes n steps to reach to the top.
 
