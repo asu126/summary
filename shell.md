@@ -29,4 +29,24 @@ sed 's/\\n/ /g' words.txt | awk '{ for(i=1;i<=NF;i++) print $i}' | sort | uniq -
       -f: 排序时忽略字符大小写
 ```
 
+- 194. 转置文件
+```
+给定一个文件 file.txt，转置它的内容。
+
+你可以假定每行列数相同，并且每个字段由 ' ' 分隔.
+
+例如，如果 file.txt 有如下内容：
+
+name age
+alice 21
+ryan 30
+输出下面的内容：
+
+name alice ryan
+age 21 30
+```
+
+**注意字符串拼接不能用 + 号**
+arr[i] = arr[i] + " " + $i
+
 http://wiki.ubuntu.org.cn/Shell%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80#.E4.BB.8E.E7.AC.AC.E4.B8.80.E8.A1.8C.E5.BC.80.E5.A7.8B
