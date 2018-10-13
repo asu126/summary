@@ -1,3 +1,7 @@
+# install
+- https://blog.csdn.net/yahstudio/article/details/48995077
+- https://github.com/protocolbuffers/protobuf/releases
+
 # error info
 ```
 ../../../golang.org/x/net/idna/idna.go:23:2: cannot find package "golang.org/x/text/secure/bidirule" in any of:
